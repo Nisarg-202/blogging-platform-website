@@ -2,11 +2,11 @@ html {
   min-height: 100%;
   position: relative;
 }
-/*
-.container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-} */
+
+h1 {
+  color: grey;
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -46,15 +46,3 @@ html {
 .edit {
   margin-top: 35px;
 }
-
-/* .delete {
-  position: relative;
-  font-size: 20px;
-  margin-left: 500px;
-  padding-right: 20px;
-}
-
-.delete1 {
-  font-size: 20px;
-  position: relative;
-} */
