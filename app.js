@@ -14,7 +14,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://nisarg:Nkp@Nkp23@cluster0-x2a77.mongodb.net/testDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://nisarg:@cluster0-x2a77.mongodb.net/testDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const postSchema = {
   title: String,
